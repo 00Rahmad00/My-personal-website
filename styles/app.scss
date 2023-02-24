@@ -3,6 +3,7 @@
 body{
 	font-family: Source Sans Pro, sans-serif;
 	font-size: 18px;
+	margin: 0;
 }
 
 .container{
@@ -13,7 +14,7 @@ body{
 
 .navbar{
 
-	margin-top: 50px;
+	margin-top: 70px;
 
 	.container{
 		display: flex;
@@ -70,13 +71,15 @@ body{
 }
 
 .hero{
-	padding-top: 100px;
+	padding-top: 170px;
 	padding-bottom: 100px;
+	margin-bottom: 100px;
 
 
 	 .container{
 		display: flex;
 		align-items: center;
+		margin-bottom: 50px;
 	
 	 }
 
@@ -165,3 +168,36 @@ body{
 		padding-bottom: 10px;
 	}
 }
+
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  bottom: 0;
+}
+
+.footer__nav {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.footer__nav li {
+  margin-right: 1rem;
+}
+
+.footer__nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__text {
+  font-size: 0.8rem;
+}
+

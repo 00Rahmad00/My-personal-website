@@ -3,6 +3,7 @@ import Navbar from "../components/navbar";
 import Head  from "next/head";
 import Image from "next/image";
 import Profile from "../public/profile.jpeg";
+import Footer from "../components/Footer";
 
 
 function Home() {
@@ -28,6 +29,9 @@ function Home() {
           </div>
          </div>
      </section>
+
+       <Footer />
+     
    </>
   );
 }

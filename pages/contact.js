@@ -1,5 +1,6 @@
 import Navbar from "../components/navbar";
 import Head from "next/head";
+import Footer from "../components/Footer";
 
 function Contact(){
     return(
@@ -23,6 +24,8 @@ function Contact(){
 		      </div>
 	      </div>
 			</section>
+
+         <Footer />
 		</>
 	);
 }

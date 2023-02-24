@@ -3,6 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Project1 from "../public/1.jpg";
 import Project2 from "../public/2.jpg";
+import Footer from "../components/Footer";
 
 function Portfolio(){
     return(
@@ -36,6 +37,8 @@ function Portfolio(){
 		</div>
 	        </div>
 			</section>
+
+               <Footer />
 		</>
 	);
 }

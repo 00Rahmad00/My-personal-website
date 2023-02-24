@@ -16,9 +16,14 @@ const  navs = [
         <Link href="/" className="Logo">Rahmad.</Link>
 
         <ul className="nav-links">
-  {navs.map((nav, index) => ( 
-    <li key={index}><Link href={nav.href} className={`nav-item ${ router.pathname == nav.href ?  'active' : ''}`}>{nav.text}</Link></li> 
+{navs.map((nav, index) => ( 
+  <li key={index}>
+    <Link href={nav.href} className={`nav-item ${router.pathname === nav.href ? 'active' : ''}`}>
+      {nav.text}
+    </Link>
+  </li> 
 ))}
+
         </ul>
       </div>
      </nav>
@@ -26,3 +31,7 @@ const  navs = [
 }
 
 export default withRouter(Navbar);
+
+
+
+

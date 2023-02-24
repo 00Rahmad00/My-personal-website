@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Navbar from "../components/navbar";
 import Head  from "next/head";
+import Image from "next/image";
+import Profile from "../public/profile.jpeg";
 
 
 function Home() {
@@ -20,7 +22,9 @@ function Home() {
               <Link href="/contact" className="cta">Kontak Saya</Link>
           </div>
            <div className="image-wrapper">
-            <img src="/profile.jpeg" className="profile-image"  />
+
+            <Image src={Profile} className="profile-image"/>
+
           </div>
          </div>
      </section>

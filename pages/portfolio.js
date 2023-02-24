@@ -1,5 +1,8 @@
 import Navbar from "../components/navbar";
 import Head from "next/head";
+import Image from "next/image";
+import Project1 from "../public/1.jpg";
+import Project2 from "../public/2.jpg";
 
 function Portfolio(){
     return(
@@ -18,13 +21,13 @@ function Portfolio(){
 
             <div className="portfolio-wrapper">
                 <div className="portfolio-item">
-                    <img src="/1.jpg" className="portfolio-image" />
+                    <Image src={Project1} className="portfolio-image" />
 
                         <h4 className="portfolio-name">E-commerce Website</h4>
                             <div className="portfolio-category">Web Dev</div>
                 </div>
                  <div className="portfolio-item">
-                    <img src="2.jpg" className="portfolio-image" />
+                   <Image src={Project2} className="portfolio-image" />
 
                         <h4 className="portfolio-name">Chat Website</h4>
                             <div className="portfolio-category">Web Dev</div>

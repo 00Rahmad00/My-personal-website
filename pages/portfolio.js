@@ -21,13 +21,13 @@ function Portfolio(){
 
             <div className="portfolio-wrapper">
                 <div className="portfolio-item">
-                    <Image src={Project1} className="portfolio-image" />
+                    <Image src={Project1} className="portfolio-image" alt="" />
 
                         <h4 className="portfolio-name">E-commerce Website</h4>
                             <div className="portfolio-category">Web Dev</div>
                 </div>
                  <div className="portfolio-item">
-                   <Image src={Project2} className="portfolio-image" />
+                   <Image src={Project2} className="portfolio-image"  alt=""/>
 
                         <h4 className="portfolio-name">Chat Website</h4>
                             <div className="portfolio-category">Web Dev</div>

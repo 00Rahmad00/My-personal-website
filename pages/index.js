@@ -23,7 +23,7 @@ function Home() {
           </div>
            <div className="image-wrapper">
 
-            <Image src={Profile} className="profile-image"/>
+            <Image src={Profile} alt="" className="profile-image"/>
 
           </div>
          </div>

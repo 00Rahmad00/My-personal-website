@@ -71,9 +71,15 @@ body{
 }
 
 .hero{
-	padding-top: 170px;
+	padding-top: 100px;
 	padding-bottom: 100px;
 	margin-bottom: 100px;
+
+	&.portfolio{
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+
+	}
 
 
 	 .container{
@@ -132,17 +138,22 @@ body{
 
 	.portfolio-wrapper{
 		display: flex;
+		  flex-wrap: wrap;
+		  justify-content: space-between;
 
 		.portfolio-item{
 			width: 50%;
 			padding-left: 10px;
 			padding-right: 10px;
 			text-align: center;
+			flex-basis: calc(50% - 20px); 
+			margin-bottom: 10%;
 		}
 
 		.portfolio-image{
+			padding-top: 5%;
 			max-width: 100%;
-			max-height: 50%;
+			height: 80%;
 		}
 
 		.portfolio-name {
@@ -156,6 +167,28 @@ body{
 			color: #999;
 		}
 	}
+
+	
+.portfolio-icons {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: center;
+}
+
+.portfolio-icons .icon {
+  font-size: 2rem;
+}
+
+.portfolio-icons .github-icon {
+  color: #333;
+}
+
+.portfolio-icons .link-icon {
+  color: #333;
+  margin-left: 1rem;
+}
+
+
 
 .contact-links{
 	padding: 0;

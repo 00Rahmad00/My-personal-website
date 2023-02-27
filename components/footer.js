@@ -3,7 +3,6 @@ import Link from "next/link";
 function Footer() {
   return (
     <footer className="footer">
-        
       <nav className="footer__nav">
         <ul>
           <li>
@@ -24,6 +23,5 @@ function Footer() {
     </footer>
   );
 }
-
 
 export default Footer;
